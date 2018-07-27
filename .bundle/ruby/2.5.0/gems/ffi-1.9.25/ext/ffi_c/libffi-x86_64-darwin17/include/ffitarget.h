@@ -1,0 +1,1 @@
+/Users/maedakei/vagrant/ubuntu64_16/develop/rails-tutorial/environment/1week/.bundle/ruby/2.5.0/gems/ffi-1.9.25/ext/ffi_c/libffi/src/x86/ffitarget.h
