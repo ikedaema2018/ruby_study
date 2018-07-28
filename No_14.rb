@@ -8,14 +8,14 @@ require './common'
 #   end
 # end
 
-class CreateUsers < ActiveRecord::Migration[5.0]
-  create_table :comments do |t|
-    t.column :text, :string
-    t.column :post_id, :integer
-    t.timestamps
+# class CreateUsers < ActiveRecord::Migration[5.0]
+#   create_table :comments do |t|
+#     t.column :text, :string
+#     t.column :post_id, :integer
+#     t.timestamps
 
-  end
-end
+#   end
+# end
 
 
 # require './common'
@@ -26,3 +26,13 @@ end
 #     t.timestamps
 #   end
 # end
+
+
+class CreateUsers < ActiveRecord::Migration[5.0]
+  create_table :diaries do |t|
+    t.column :text, :string
+    t.column :date, :date
+    t.column :count, :int
+    t.timestamps
+  end
+end

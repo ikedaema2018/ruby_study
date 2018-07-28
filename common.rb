@@ -24,6 +24,10 @@ class Comment < ActiveRecord::Base
   belongs_to :post
 end
 
+class Diary < ActiveRecord::Base
+  
+end
+
 #
 ActiveRecord::Base.establish_connection(
   adapter:  "mysql2",  #アダプター名
