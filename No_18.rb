@@ -1,1 +1,1 @@
-# SELECT * FROM users WHERE gender = '女性' ORDER BY age DESC;
+# SELECT * FROM users WHERE gender = '男性' ORDER BY age DESC;
