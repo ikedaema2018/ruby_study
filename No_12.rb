@@ -11,6 +11,14 @@ end
 
 # htmlをパース(解析)してオブジェクトを作成
 doc = Nokogiri::HTML.parse(html, nil, charset)
+
+interview = doc.css("")
+
+
+
+driver = Selenium::WebDriver.for :chrome # ブラウザ起動
+
+
 doc.css("a").each do |it|
   puts it[:href]
 end

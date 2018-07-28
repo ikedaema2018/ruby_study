@@ -10,6 +10,5 @@ end
 
 # htmlをパース(解析)してオブジェクトを作成
 doc = Nokogiri::HTML.parse(html, nil, charset)
-doc.css(".title").each do |it|
-  puts it
-end
+
+titles = doc.xpath('')
