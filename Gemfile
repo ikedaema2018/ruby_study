@@ -9,5 +9,7 @@ gem 'nokogiri'
 gem 'activerecord'
 gem 'mysql2'
 gem "selenium-webdriver"
+gem "sinatra"
+gem "sinatra-contrib"
 
 # gem "rails"

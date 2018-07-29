@@ -2,6 +2,8 @@ require 'nokogiri'
 require 'active_record'
 require 'open-uri'
 require 'pp'
+require 'sinatra'
+
 
 
 # # 標準出力ログを出す
