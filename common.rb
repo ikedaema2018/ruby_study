@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'active_record'
 require 'open-uri'
 require 'pp'
-require 'sinatra'
+# require 'sinatra'
 
 
 
@@ -27,6 +27,10 @@ class Comment < ActiveRecord::Base
 end
 
 class Diary < ActiveRecord::Base
+  
+end
+
+class Profile < ActiveRecord::Base
   
 end
 
