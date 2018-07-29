@@ -1,0 +1,1 @@
+curl -F "name=curl" -F "gender=男性" -F "todoufuken=東京" http://127.0.0.1:4567/profile
