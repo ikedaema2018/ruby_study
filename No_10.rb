@@ -11,4 +11,8 @@ end
 # htmlをパース(解析)してオブジェクトを作成
 doc = Nokogiri::HTML.parse(html, nil, charset)
 
-titles = doc.xpath('')
+doc.css('p.label').each do |label|
+  if label.text == "INTERVIEW"
+    puts label.parent.css('.title').text
+  end
+end
