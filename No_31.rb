@@ -7,9 +7,10 @@ get '/' do
   erb :No_31
 end
 
-get '/nickname/:name' do
-  # puts "こんにちは#{params[:nickname]}さん"
-  @nickname = params[:name]
+get '/nickname' do
+  @nickname = params[:nickname]
   erb :No_31_1
 end
+
+
 
